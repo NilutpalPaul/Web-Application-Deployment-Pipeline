@@ -5,15 +5,21 @@ This project is a basic web application deployment pipeline using Azure DevOps. 
 # Technologies Used:
 
 Programming Language: Node.js (you can choose any other programming language)
+
 Source Control: Git (GitHub or Azure Repos)
+
 Build: npm (Node Package Manager)
+
 Test: Mocha and Chai (for unit testing)
+
 Deployment: Azure App Service
 
 # Azure DevOps Components:
 
 Azure Repos: Git repository to store the source code.
+
 Azure Pipelines: To create CI/CD pipelines.
+
 Azure App Service: To host the web application.
 
 # Source Code
@@ -34,17 +40,14 @@ package.json
 
 ![image](https://github.com/NilutpalPaul/Web-Application-Deployment-Pipeline/assets/85864155/56ad3181-12b4-4cd1-8ff7-99cdc5efe1f2)
 
+
 With this code, you can run the unit tests using Mocha and Chai with the following command:
 
-# bash
-
-npm test
+bash-> "npm test"
 
 And you can start the web application with:
 
-# sql
-
-npm start
+sql-> "npm start"
 
 Please make sure to run npm install first to install the necessary dependencies.
 
